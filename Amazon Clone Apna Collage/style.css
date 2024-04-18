@@ -1,0 +1,199 @@
+/* #box
+{
+    color: blue;
+    background-color: rgb(231, 203, 203);
+}
+h1,h2,h3
+{
+    color: rgb(67, 97, 87);
+}
+button
+{
+    background-color: green;
+} */
+
+/* 
+p{
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+}
+#h1
+{
+    font-weight: 100;
+}
+#One
+{
+    font-family: Arial;
+}
+#Two
+{
+    font-family: cursive;
+} */
+/* #one
+{
+    font-size: 25px;
+    line-height: normal;
+    text-transform: capitalize;
+}
+#two
+{
+    font-size: 30px;
+}
+#three
+{
+    font-size: 23px;
+} */
+/* h1
+{
+    text-align: center;
+    text-transform: capitalize;
+}
+p
+{
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+#outer
+{
+    font-size: 25px;
+}
+#inner
+{
+    font-size: 10px;
+} */
+
+/* div
+{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#BOX1
+{
+    background-color: rgba(0,255,0,0.5);
+}
+#BOX2
+{
+    background-color: rgba(0,255,0,0.75);
+}
+#BOX3
+{
+    background-color: rgba(0,255,0,1);
+} */
+
+/* *
+{
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+#Navbar
+{
+    height: 60px;
+    background-color: black;
+}
+button
+{
+    background-color: #f08804;
+}
+#logo   
+{
+    color: #f08804;
+    font-size: 25px;
+}
+a
+{
+    margin-right: 100px;
+    text-decoration: none;
+}
+.contentBOX
+{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#content
+{
+    height: 635px;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    text-align: center  ;
+} */
+/* 
+div
+{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+body
+{
+    background-image: url("14.jpg");
+    background-size: cover;
+}
+#box1
+{
+    background-image: url("12.jpg");
+    background-size: cover;
+}
+#box2
+{
+    background-image: url("13.jpg");
+    background-size: cover;
+} */
+
+/* div
+{
+    height: 100px;
+    width: 100px;
+    background-image: url(15.jpg);
+    background-size: cover;
+    color: white;
+    position: fixed;
+    right: 0px;
+    top: 10px;
+} */
+/* div
+{
+    height: 50px;
+    width: 50px;
+    background-color: rebeccapurple;
+}
+@media(min-width:600px) {
+    div
+    {
+        background-color: red;
+    }
+} */
+
+.loader
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid blue;
+    border-left: 20px solid black;
+    animation: spin 0.5s ease-in-out 0s infinite normal;
+}
+@keyframes spin
+{
+    form
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }
+}

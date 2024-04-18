@@ -1,0 +1,75 @@
+MDN is website for more imformation of the syntex's
+96px = 1 inch = 2.54cm
+
+
+For border:
+border-width: 2px;
+border-style: solid;
+border-color: aqua;
+border: 2px solid rgb(8, 8, 8);
+border-radius: 25%; or 25px
+
+padding:
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 25px;
+padding-bottom: 25px;
+shortend form:
+padding: 20px;
+padding: 10px 20px 30px 40px;
+
+margin:
+margin-top: 30px;
+margin-bottom: 30px;
+margin: 20px;
+margin: 10px 20px 30px 40px;
+
+Navibar Program:
+
+ <div id="Navbar">
+        <a id="logo">Amazon.in</a>
+        <a href="">Account</a>
+        <a href="">My Cart</a>
+        <a href="">Contact Us</a>
+        <input placeholder="Search Amazon.in">
+        <button>Search</button>
+    </div>
+*
+{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+#Navbar
+{
+    height: 60px;
+    background-color: black;
+}
+button
+{
+    background-color: #f08804;
+}
+#logo   
+{
+    color: #f08804;
+    font-size: 25px;
+}
+a
+{
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+
+display: inline-block;
+#box2
+{
+    display: none; OR visibility: hidden;
+}
+
+for opacity:
+rgba(255,0,0, 0 to 1)
+
+
+transition shortend : Property name(font-size) | duration(2s) | timing-function(ease-in) | delay(0.2s)
+animation shortend : name | 2s | linear | infinite | normal

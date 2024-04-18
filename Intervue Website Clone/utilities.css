@@ -1,0 +1,17 @@
+.flex{
+    display: flex;
+}
+.jc{
+    justify-content: center;
+}
+.ai{
+    align-items: center;
+}
+.p1{
+    font-weight: 600;
+    color: black;
+}
+.p2{
+    font-weight: 100;
+    color: #4f4f4f;
+}
